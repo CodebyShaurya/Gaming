@@ -27,7 +27,7 @@ export default function Home() {
               <div className="-mx-4 flex flex-wrap">
                 <div className="w-full max-w-[520px] px-4">
                   <div className="group mb-12 flex">
-                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center rounded-full border-2 border-primary bg-primary text-xl font-semibold text-white group-hover:bg-transparent group-hover:text-primary md:h-[80px] md:max-w-[80px] md:text-2xl">
+                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center rounded-full border-2 border-primary bg-purple-500  text-xl font-semibold text-white group-hover:bg-transparent group-hover:text-purple-500 md:h-[80px] md:max-w-[80px] md:text-2xl">
                       01
                     </div>
                     <div className="w-full">
@@ -43,7 +43,7 @@ export default function Home() {
                 </div>
                 <div className="w-full max-w-[520px] px-4">
                   <div className="group mb-12 flex">
-                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center rounded-full border-2 border-primary bg-primary text-xl font-semibold text-white group-hover:bg-transparent group-hover:text-primary md:h-[80px] md:max-w-[80px] md:text-2xl">
+                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center rounded-full border-2 border-primary bg-purple-500  text-xl font-semibold text-white group-hover:bg-transparent group-hover:text-purple-500 md:h-[80px] md:max-w-[80px] md:text-2xl">
                       02
                     </div>
                     <div className="w-full">
@@ -59,7 +59,7 @@ export default function Home() {
                 </div>
                 <div className="w-full max-w-[520px] px-4">
                   <div className="group mb-12 flex">
-                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center rounded-full border-2 border-primary bg-primary text-xl font-semibold text-white group-hover:bg-transparent group-hover:text-primary md:h-[80px] md:max-w-[80px] md:text-2xl">
+                    <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center rounded-full border-2 border-primary bg-purple-500  text-xl font-semibold text-white group-hover:bg-transparent group-hover:text-purple-500 md:h-[80px] md:max-w-[80px] md:text-2xl">
                       03
                     </div>
                     <div className="w-full">

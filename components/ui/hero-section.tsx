@@ -91,7 +91,7 @@ export default function HeroSection() {
           {/* Hero Image */}
           <div className="flex justify-center items-end lg:items-center relative mb-8 lg:mb-0">
             <img
-              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c129aab8-0fed-4d3e-8c10-3fc467fb661b/ddyjdmr-b48faa53-4620-4de8-a2f9-77f168cc1ea6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MxMjlhYWI4LTBmZWQtNGQzZS04YzEwLTNmYzQ2N2ZiNjYxYlwvZGR5amRtci1iNDhmYWE1My00NjIwLTRkZTgtYTJmOS03N2YxNjhjYzFlYTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.p35BQpGLlAzpoubUIz7AbPR7bSAMkT2FQiVGGp8BaF8"
+              src="/assets\Create a high-resolu1.png"
               alt="Disruptive Gaming Subscription"
               className="max-w-full h-[50vh] sm:h-[70vh] lg:h-[90vh] object-contain"
             />
