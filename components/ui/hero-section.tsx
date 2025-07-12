@@ -1,11 +1,16 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import Head from 'next/head';
 
 export default function HeroSection() {
-
   return (
-    <section
+    <>
+      <Head>
+        <title>Ultimate Game Pass – Coming Soon</title>
+        <meta name="description" content="Get ready for the next big thing in gaming subscriptions. Unlimited access, exclusive rewards, and seamless play across all devices. Coming soon to disrupt the gaming industry!" />
+        <meta name="keywords" content="gaming subscription, game pass, unlimited games, cloud gaming, exclusive rewards, coming soon" />
+      </Head>
+      <section
         id="home"
         className="__web-inspector-hide-shortcut__"
         style={{
@@ -15,119 +20,86 @@ export default function HeroSection() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="container min-h-screen w-[90%] mx-auto -mt-12 relative">
-          <div className="grid md:grid-cols-[70%_auto] gap-5">
-            <div>
-              <div className="xl:pt-[120px] xl:pb-[50px] lg:pt-[120px] lg:pb-[50px] md:pt-[90px] md:pb-[100px] sm:pt-[80px] sm:pb-[85px] pt-[60px] xl:pl-10 pl-0">
-                <a
-                  className="md:text-[24px] text-base leading-[140%] md:mb-[30px] mb-6  border-b border-b-clr_white text-white inline-block pb-4 hover:text-clr_base hover:border-b-clr_base capitalize"
-                  href="#"
+        <div className="container min-h-screen w-[90%] mx-auto -mt-12 relative flex flex-col-reverse lg:grid lg:grid-cols-2 gap-5">
+          {/* Written Content */}
+          <div className="flex flex-col justify-center pt-10 pb-8 lg:pt-[120px] lg:pb-[50px]">
+            <a
+              className="md:text-[24px] text-base leading-[140%] mb-6 border-b border-b-clr_white text-white inline-block pb-4 hover:text-clr_base hover:border-b-clr_base capitalize"
+              href="#"
+            >
+              <span className="block">COMING SOON</span>
+              <span className="flex gap-4 items-center">
+                Worldwide
+                <i>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" className="bi bi-arrow-up-right">
+                    <path fillRule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z" />
+                  </svg>
+                </i>
+              </span>
+            </a>
+            <h1 className="lg:text-[80px] md:text-[48px] sm:text-[36px] text-[28px] font-bold mb-4 leading-tight text-white">
+              <span className="block">The Future of Gaming</span>
+              <span className="block designers relative overflow-hidden" data-text="SUBSCRIPTION" style={{ display: 'inline-block' }}>
+                <span
+                  className="absolute inset-0 animate-fill-text"
+                  style={{
+                    background: 'none',
+                    color: '#0aed21ff',
+                    WebkitTextFillColor: 'currentcolor',
+                    animation: 'fillText 2s linear infinite alternate',
+                    pointerEvents: 'none',
+                    transition: 'color 0.5s',
+                  }}
+                  aria-hidden="true"
                 >
-                  <span className="block">AVAILABLE SOON</span>
-                  <span className="flex gap-4 items-center">
-                    worldwide
-                    <i className="">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        width="1em"
-                        height="1em"
-                        fill="currentColor"
-                        className="bi bi-arrow-up-right"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"
-                        />
-                      </svg>
-                    </i>
-                  </span>
+                  SUBSCRIPTION
+                </span>
+                <span style={{ opacity: 0 }}>{'SUBSCRIPTION'}</span>
+                <style jsx>{`
+                  @keyframes fillText {
+                    0% { color: transparent; }
+                    50% { color: #a855f7; }
+                    100% { color: transparent; }
+                  }
+                  .animate-fill-text {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    color: inherit;
+                  }
+                `}</style>
+              </span>
+            </h1>
+            <p className="text-gray-300 text-base sm:text-lg md:text-xl mb-6 max-w-xl">
+              Unlimited access to the hottest games, exclusive member rewards, and seamless play across all your devices. The most disruptive gaming subscription is launching soon. Be the first to experience the revolution!
+            </p>
+            <div className="flex items-center gap-4">
+              <div className="cursor-pointer relative xl:w-16 xl:h-16 sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] flex justify-center items-center rounded-full border border-clr_white before:absolute before:border-2 before:border-clr_white before:w-full before:h-full before:content-[''] before:rounded-full before:animate-scales">
+                <a href='/plans' className="text-white sm:text-[32px] text-[22px]">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" className="bi bi-play-fill">
+                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
+                  </svg>
                 </a>
-                <h1 className="lg:text-[116px] md:text-[68px] sm:text-[48px] text-[34px] font-semibold sm:mb-[25px] mb-[5px] leading-[120%]">
-                  <span className="text-white"> Be a Ultimate </span>
-                  <span
-                    className="block designers relative overflow-hidden"
-                    data-text="GAMER"
-                    style={{ display: 'inline-block' }}
-                  >
-                    <span
-                      className="absolute inset-0 animate-fill-text"
-                      style={{
-                        background: 'none',
-                        color: '#0aed21ff', // purple-500
-                        WebkitTextFillColor: 'currentcolor',
-                        animation: 'fillText 2s linear infinite alternate',
-                        pointerEvents: 'none',
-                        transition: 'color 0.5s',
-                      }}
-                      aria-hidden="true"
-                    >
-                      GAMER
-                    </span>
-                    <span style={{ opacity: 0 }}>{'GAMER'}</span>
-                    <style jsx>{`
-                      @keyframes fillText {
-                        0% {
-                          color: transparent;
-                        }
-                        50% {
-                          color: #a855f7 ;
-                        }
-                        100% {
-                          color: transparent;
-                        }
-                      }
-                      .animate-fill-text {
-                        position: absolute;
-                        left: 0;
-                        top: 0;
-                        width: 100%;
-                        height: 100%;
-                        color: inherit;
-                      }
-                    `}</style>
-                  </span>
-                </h1>
-                <div className="flex items-center gap-6">
-                  <img src="https://matias-next-beryl.vercel.app/img/banner/bn-arrow.png" alt="img" />
-                  <div className="cursor-pointer relative xl:w-20 xl:h-20 sm:w-[60px] sm:h-[60px] w-[50px] h-[50px] flex justify-center items-center rounded-full border border-clr_white before:absolute before:border-2 before:border-clr_white before:w-full before:h-full before:content:[''] before:rounded-full before:animate-scales  ">
-                    <a href='/plans' className="text-white sm:text-[42px] text-[30px]">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 16 16"
-                        width="1em"
-                        height="1em"
-                        fill="currentColor"
-                        className="bi bi-play-fill"
-                      >
-                        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
-                      </svg>
-                    </a>
-                  </div>
-                  <span className="sm:text-xl text-base text-white ">
-                    Buy the World's Best Game Pass
-                  </span>
-                </div>
               </div>
-            </div>
-            <div>
-              <div className="absolute xxl:left-[calc(50%--120px)] left-[calc(50%--80px)] bottom-0 right_up_animat">
-                {/* <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCd2_HwH9W4fmZhu3AjkOqgTd_DacAJ-O8nw&s"
-                  alt="man-img"
-                  className="w-full"
-                /> */}
-                <img
-                  src="https://pngimg.com/uploads/battlefield/battlefield_PNG80.png"
-                  alt="man-img"
-                  className="w-full"
-                />
-              </div>
+              <span className="sm:text-lg text-base text-white font-semibold">
+                Discover the Game Pass
+              </span>
             </div>
           </div>
+          {/* Hero Image */}
+          <div className="flex justify-center items-end lg:items-center relative mb-8 lg:mb-0">
+            <img
+              src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c129aab8-0fed-4d3e-8c10-3fc467fb661b/ddyjdmr-b48faa53-4620-4de8-a2f9-77f168cc1ea6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2MxMjlhYWI4LTBmZWQtNGQzZS04YzEwLTNmYzQ2N2ZiNjYxYlwvZGR5amRtci1iNDhmYWE1My00NjIwLTRkZTgtYTJmOS03N2YxNjhjYzFlYTYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.p35BQpGLlAzpoubUIz7AbPR7bSAMkT2FQiVGGp8BaF8"
+              alt="Disruptive Gaming Subscription"
+              className="max-w-full h-[50vh] sm:h-[70vh] lg:h-[90vh] object-contain"
+            />
+          </div>
         </div>
-        <div className="hidden absolute -left-[40px] top-1/2 -translate-y-1/2 xl:grid gap-[220px] ">
-          <div className="rotate-90 flex items-center justify-center gap-[16px] ">
+        {/* Socials & Scroll Down - hidden on small screens */}
+        <div className="hidden xl:absolute xl:-left-[40px] xl:top-1/2 xl:-translate-y-1/2 xl:grid xl:gap-[220px]">
+          <div className="rotate-90 flex items-center justify-center gap-[16px]">
             <a href="#call">
               <img src="https://matias-next-beryl.vercel.app/img/banner/dial.png" alt="img" className="-rotate-90 w-4" />
             </a>
@@ -144,10 +116,10 @@ export default function HeroSection() {
             </a>
           </div>
         </div>
-        <div className="hidden absolute right-0 top-[55%] -translate-y-1/2 xl:grid gap-[150px]  ">
+        <div className="hidden xl:absolute xl:right-0 xl:top-[55%] xl:-translate-y-1/2 xl:grid xl:gap-[150px]">
           <div className="flex items-center justify-center gap-[50px] rotate-90">
-            <a className="scroll text-clr_pra uppercase text-[15px]" href="#">
-              Follow Me
+            <a className="scroll text-gray-500 uppercase text-[15px]" href="#">
+              Follow Us
             </a>
             <a className="-rotate-90" href="#">
               <img src="https://matias-next-beryl.vercel.app/img/banner/scroll-down.png" alt="img" className="w-5" />
@@ -254,5 +226,6 @@ export default function HeroSection() {
           </div>
         </div>
       </section>
+    </>
   );
 }
