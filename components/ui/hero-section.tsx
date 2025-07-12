@@ -15,15 +15,15 @@ export default function HeroSection() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="container w-[100%] mx-auto -mt-12 relative">
+        <div className="container w-[90%] mx-auto -mt-12 relative">
           <div className="grid md:grid-cols-[70%_auto] gap-5">
             <div>
-              <div className="xl:pt-[145px] xl:pb-[180px] lg:pt-[120px] lg:pb-[150px] md:pt-[90px] md:pb-[100px] sm:pt-[80px] sm:pb-[85px] py-[60px] xl:pl-10 pl-0">
+              <div className="xl:pt-[120px] xl:pb-[50px] lg:pt-[120px] lg:pb-[50px] md:pt-[90px] md:pb-[100px] sm:pt-[80px] sm:pb-[85px] pt-[60px] xl:pl-10 pl-0">
                 <a
-                  className="md:text-[24px] text-base leading-[140%] md:mb-[50px] mb-6  border-b border-b-clr_white text-white inline-block pb-4 hover:text-clr_base hover:border-b-clr_base capitalize"
+                  className="md:text-[24px] text-base leading-[140%] md:mb-[30px] mb-6  border-b border-b-clr_white text-white inline-block pb-4 hover:text-clr_base hover:border-b-clr_base capitalize"
                   href="#"
                 >
-                  <span className="block">Currently available for freelance</span>
+                  <span className="block">AVAILABLE SOON</span>
                   <span className="flex gap-4 items-center">
                     worldwide
                     <i className="">
@@ -43,18 +43,18 @@ export default function HeroSection() {
                     </i>
                   </span>
                 </a>
-                <h1 className="lg:text-[116px] md:text-[68px] sm:text-[48px] text-[34px] font-semibold sm:mb-[50px] mb-[30px] leading-[120%]">
-                  <span className="text-white"> Creative Visual</span>
+                <h1 className="lg:text-[116px] md:text-[68px] sm:text-[48px] text-[34px] font-semibold sm:mb-[25px] mb-[5px] leading-[120%]">
+                  <span className="text-white"> Be a Ultimate </span>
                   <span
                     className="block designers relative overflow-hidden"
-                    data-text="Designer"
+                    data-text="GAMER"
                     style={{ display: 'inline-block' }}
                   >
                     <span
                       className="absolute inset-0 animate-fill-text"
                       style={{
                         background: 'none',
-                        color: '#a21caf', // purple-500
+                        color: '#0aed21ff', // purple-500
                         WebkitTextFillColor: 'currentcolor',
                         animation: 'fillText 2s linear infinite alternate',
                         pointerEvents: 'none',
@@ -62,16 +62,16 @@ export default function HeroSection() {
                       }}
                       aria-hidden="true"
                     >
-                      Designer
+                      GAMER
                     </span>
-                    <span style={{ opacity: 0 }}>{'Designer'}</span>
+                    <span style={{ opacity: 0 }}>{'GAMER'}</span>
                     <style jsx>{`
                       @keyframes fillText {
                         0% {
                           color: transparent;
                         }
                         50% {
-                          color: #a21caf;
+                          color: #a855f7 ;
                         }
                         100% {
                           color: transparent;
@@ -91,7 +91,7 @@ export default function HeroSection() {
                 <div className="flex items-center gap-6">
                   <img src="https://matias-next-beryl.vercel.app/img/banner/bn-arrow.png" alt="img" />
                   <div className="cursor-pointer relative xl:w-20 xl:h-20 sm:w-[60px] sm:h-[60px] w-[50px] h-[50px] flex justify-center items-center rounded-full border border-clr_white before:absolute before:border-2 before:border-clr_white before:w-full before:h-full before:content:[''] before:rounded-full before:animate-scales  ">
-                    <i className="text-white sm:text-[42px] text-[30px]">
+                    <a href='/plans' className="text-white sm:text-[42px] text-[30px]">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 16 16"
@@ -102,10 +102,10 @@ export default function HeroSection() {
                       >
                         <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393" />
                       </svg>
-                    </i>
+                    </a>
                   </div>
-                  <span className="sm:text-xl text-base text-white w-[67px]">
-                    Work Process
+                  <span className="sm:text-xl text-base text-white ">
+                    Buy the World's Best Game Pass
                   </span>
                 </div>
               </div>
@@ -128,11 +128,11 @@ export default function HeroSection() {
         </div>
         <div className="hidden absolute -left-[40px] top-1/2 -translate-y-1/2 xl:grid gap-[220px] ">
           <div className="rotate-90 flex items-center justify-center gap-[16px] ">
-            <a href="#">
+            <a href="#call">
               <img src="https://matias-next-beryl.vercel.app/img/banner/dial.png" alt="img" className="-rotate-90 w-4" />
             </a>
             <a className="text-white" href="#">
-              (+02)-574-328-301
+              (+91)-8383822020
             </a>
           </div>
           <div className="flex items-center justify-center gap-[50px] rotate-90 mb-[0px]">
