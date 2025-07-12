@@ -44,7 +44,7 @@ export default function HeroSection() {
                   className="absolute inset-0 animate-fill-text"
                   style={{
                     background: 'none',
-                    color: '#0aed21ff',
+                    color: '#a855f7',
                     WebkitTextFillColor: 'currentcolor',
                     animation: 'fillText 2s linear infinite alternate',
                     pointerEvents: 'none',
