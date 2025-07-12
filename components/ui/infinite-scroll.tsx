@@ -8,7 +8,7 @@ function InfiniteScrollAnimationPage() {
 
           return (
             <li key={stock.ticker} className="">
-              <p className="text-gray-300 text-3xl w-[270px]">{stock.ticker}</p>
+              <p className="text-gray-300 text-3xl w-[300px]">{stock.ticker}</p>
              
             </li>
           );
@@ -21,29 +21,31 @@ function InfiniteScrollAnimationPage() {
 export default InfiniteScrollAnimationPage;
 
 const stocks = [
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"}, 
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
-  { ticker: "COMING SOON"},
+  { ticker: "* COMING SOON"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
+  { ticker: "* COMING SOON *"},
 ];

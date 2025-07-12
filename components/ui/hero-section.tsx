@@ -15,7 +15,7 @@ export default function HeroSection() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="container w-[90%] mx-auto -mt-12 relative">
+        <div className="container min-h-screen w-[90%] mx-auto -mt-12 relative">
           <div className="grid md:grid-cols-[70%_auto] gap-5">
             <div>
               <div className="xl:pt-[120px] xl:pb-[50px] lg:pt-[120px] lg:pb-[50px] md:pt-[90px] md:pb-[100px] sm:pt-[80px] sm:pb-[85px] pt-[60px] xl:pl-10 pl-0">
